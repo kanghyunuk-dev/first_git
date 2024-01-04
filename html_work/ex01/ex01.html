@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body { background-color: lightblue; }
+        h1 { text-align: center; color: white; }
+        p { font-size: 30px; font-family: '';}
+        #a { border: 1px solid blue; }
+        .b { border: 1px solid yellow;}
+        p.center { border: 1px lightblue; }
+        .large { font-size: 20px; }
+        .c { padding: 20px; }
+    </style>
+</head>
+<body>
+    <div>
+        <h1 id="a">html</h1>
+        <p class="b center large c">문단</p>
+    </div>
+</body>
+<script>
+    const aa = document.getElementById('a');
+    aa.addEventListener('click', () => {
+        alert('test');
+    });
+    // document.getElementById('a').onclick = function(){
+    //     let a = 'on';
+    //     let b = 'click';
+    //     alert('test = ' + a + b);
+    // }
+</script>
+</html>
