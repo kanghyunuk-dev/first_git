@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #header {position: relative; height: 100px; background-color: aquamarine; width: 1280px; margin: 0 auto;}
+        #header .left,.center,.right {position: absolute; width: 100px; height: 100px; color: #fff; text-align: center; line-height: 100px;}
+        #header .left { left:0;  background-color: blueviolet;}
+        #header .center {left: 50%; transform: translateX(-50%); background-color: black;}
+        #header .right {right: 0; background-color: brown;}
+    </style>
+</head>
+<body>
+    <div id="header">
+        <div class="left">LOGO</div>
+        <div class="center">CENTER</div>
+        <div class="right">INFO</div>
+    </div>
+</body>
+</html>
